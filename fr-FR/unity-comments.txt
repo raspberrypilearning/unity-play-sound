@@ -1,3 +1,3 @@
-Check the tag of the colliding object
+Vérifier le tag de l'objet de collision
 
-Player
+Joueur
