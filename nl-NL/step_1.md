@@ -1,4 +1,4 @@
-Sounds are used to enhance player experience. To add a sound, create a public variable to store the sound you want to play:
+Geluiden worden gebruikt om de spelerservaring te verbeteren. Om een geluid toe te voegen, maak een public variabele om het geluid op te slaan dat je wilt afspelen:
 
 --- code ---
 ---
@@ -9,7 +9,7 @@ public AudioClip collectSound;
 
 --- /code ---
 
-Add a line of code at the point you want the sound to play:
+Voeg een regel code toe op het punt waar je het geluid wilt afspelen:
 
 --- code ---
 ---
@@ -20,7 +20,7 @@ AudioSource.PlayClipAtPoint(collectSound, transform.position);
 
 --- /code ---
 
-For example, this code plays a collect sound when the GameObject is collected by the Player:
+Deze code speelt bijvoorbeeld een geluid wanneer het GameObject wordt verzameld door de speler:
 
 --- code ---
 ---
@@ -41,6 +41,6 @@ void OnTriggerEnter(Collider other)
 
 --- /code ---
 
-In the Unity editor, find the sound property for your script component and click on the circle to assign the sound you want to play:
+Zoek in de Unity editor, de geluidseigenschappen voor het script component en klik op de cirkel om het geluid toe te wijzen dat je wilt afspelen:
 
-![The Inspector window with sound 'Collect' in the Collect Sound variable and the circle to the right highlighted.](images/collect-sound-property.png)
+![Het Inspector-venster met geluid 'Collect' in de Collect Sound-variabele en de cirkel rechts gemarkeerd.](images/collect-sound-property.png)
