@@ -32,7 +32,7 @@ public AudioClip verzamelGeluid;
 void OnTriggerEnter(Collider other)
 {
     // Controleer de tag van het botsende object
-    if (other.gameObject.tag == "Speler")
+    if (other.gameObject.tag == "Player")
     {
         AudioSource.PlayClipAtPoint(verzamelGeluid, transform.position);
         Destroy(gameObject);
